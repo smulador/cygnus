@@ -1,0 +1,169 @@
+<html>
+			<head>
+				<meta charset="utf-8"/>
+				<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>SIMULADOR CYGNUS</title>
+				<link rel="icon" type="image/png" href="https://apache.org/favicons/favicon-194x194.png">
+				<link rel="stylesheet" href="base.min.css"/>
+				<link rel="stylesheet" href="fancy.min.css"/>
+				<link rel="stylesheet" href="main.css"/>
+				<link rel="stylesheet" href="./css/bootstrap.min.css">
+				<link rel="stylesheet" href="./css/estilos.css">
+				
+				<link rel = "hoja de estilo" href = "style_jquery.css">
+				<script type = "text / javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+				<script type = "text / javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"> </script>
+				<script type = "text / javascript" src = "jquery_formato.js"> </script>
+			</head>
+			
+			
+	
+<style type="text/css">
+tr, td{
+	padding: 5px
+}
+</style>
+
+
+	
+	<body bgcolor="#0B3B39">
+		<pre>
+
+</pre>
+
+<center><font color="C3FC01" face="bodony mt black" size="15"><b>SIMULADOR</b></font></center>
+<pre>
+			
+</pre>
+
+<center>
+				<script src="compatibility.min.js"></script>
+				<script src="theViewer.min.js"></script>
+
+
+				<script>
+					function calcule2(){
+						var i=0; for (i=0;i<= 6;i++) {calcule();}} 
+						function calcule(){ 
+						Excel2Html.B6.value=(Math.round((parseFloat(Excel2Html.B5.value)-parseFloat(Excel2Html.B4.value)-parseFloat(Excel2Html.B3.value))* 1))/ 1 ; 
+						Excel2Html.B7.value=(Math.round((parseFloat(Excel2Html.B2.value)+parseFloat(Excel2Html.B6.value))* 1))/ 1 ; 
+						Excel2Html.B13.value=(Math.round((parseFloat(Excel2Html.B10.value)-parseFloat(Excel2Html.B11.value)-parseFloat(Excel2Html.B12.value))* 1))/ 1 ; 
+						Excel2Html.B21.value=(Math.round((parseFloat(Excel2Html.B16.value)-parseFloat(Excel2Html.B17.value)-parseFloat(Excel2Html.B20.value)-parseFloat(Excel2Html.B22.value))* 1))/ 1 ; 
+						Excel2Html.B22.value=(Math.round((parseFloat(Excel2Html.B18.value)/100*parseFloat(Excel2Html.B19.value))* 1))/ 1 ; 
+						Excel2Html.B27.value=(Math.round((parseFloat(Excel2Html.B25.value)/parseFloat(Excel2Html.B26.value))* 1))/ 1 ; 
+						}
+						alert(" RECUERDE INGRESAR SOLO NUMEROS SIN COMA O PUNTOS ...");
+					</script>
+
+
+<form name="Excel2Html";id="formularioCantidad">
+	<table border="0" margin="0" padding="0" cellspacing="0" cellpadding="0"><tr height="20"px; style="border:0px;" >
+			<td colspan="2" style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; font-weight: bold; text-align: center; ">PAGO ANTICIPADO</td>
+			</tr>
+			<tr height=" 37.324px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: left; ">SIMULACION A LA FECHA DE PAGO</td>
+			<td style="height:20px; width: 208.561px; background-color:#FFFFFF; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: center; "><input id="monedaInput" placeholder="Escribe número" type="text" onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;" onchange="calcule2()" name="B2" value="" size="8" style="background-color: transparent; border:0px; height: 37.324px; width: 208.561px; text-align: center; font-size: 22px; font-family:Calibri Light; color:#000000; "></td>
+			</tr>
+			<tr height=" 37.324px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: left; ">APORTES SIMULADOS A LA FECHA DE PAGO</td>
+			<td style="height:20px; width: 208.561px; background-color:#FFFFFF; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: center; "><input id="monedaInput" placeholder="Escribe número" type="text" onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;" onchange="calcule2()" name="B3" value="" size="8" style="background-color: transparent; border:0px; height: 37.324px; width: 208.561px; text-align: center; font-size: 22px; font-family:Calibri Light; color:#000000; "></td>
+			</tr>
+			<tr height=" 37.324px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: left; ">APORTES PAGADOS (MOVIMIENTOS DE PAGO)</td>
+			<td style="height:20px; width: 208.561px; background-color:#FFFFFF; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: center; "><input id="monedaInput" placeholder="Escribe número" type="text" onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;" onchange="calcule2()" name="B4" value="" size="8" style="background-color: transparent; border:0px; height: 37.324px; width: 208.561px; text-align: center; font-size: 22px; font-family:Calibri Light; color:#000000; "></td>
+			</tr>
+			<tr height=" 37.324px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: left; ">TOTAL DE APORTES A PAGAR DEL CREDITO (RADICADO)</td>
+			<td style="height:20px; width: 208.561px; background-color:#FFFFFF; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: center; "><input id="monedaInput" placeholder="Escribe número" type="text" onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;" onchange="calcule2()" name="B5" value="" size="8" style="background-color: transparent; border:0px; height: 37.324px; width: 208.561px; text-align: center; font-size: 22px; font-family:Calibri Light; color:#000000; "></td>
+			</tr>
+			<tr height=" 37.324px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: left; ">APORTES PENDIENTES POR COBRAR</td>
+			<td style="height:20px; width: 208.561px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: center; "><input type="text" onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;" onchange="calcule2()" name="B6" value="" size="8"disabled="disabled"  style="background-color: transparent; border:0px; height: 37.324px; width: 208.561px; text-align: center; font-size: 22px; font-family:Calibri Light; color:#000000; "></td>
+			</tr>
+			<tr height=" 37.324px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; font-weight: bold; text-align: center; ">VALOR TOTAL A PAGAR</td>
+			<td style="height:20px; width: 208.561px; background-color:#FF0000; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Agency FB; color:#000000; font-weight: bold; text-align: center; "><input  type="text" onchange="calcule2()" name="B7" value="" size="8"disabled="disabled"  style="background-color: transparent; border:0px; height: 37.324px; width: 208.561px; text-align: center; font-size: 22px; font-family:Agency FB; color:#000000; font-weight: bold; "></td>
+			</tr>
+			<tr height=" 33.325px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: 0px; border-left: 0px; font-size: 13px; font-family:Bradley Hand ITC; color:#000000; text-align: center; "></td>
+			<td style="height:20px; width: 208.561px; background-color:#; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: 0px; border-left: 0px; font-size: 13px; font-family:Bradley Hand ITC; color:#000000; text-align: center; "></td>
+			</tr>
+			<tr height=" 37.324px;" style="border:0px;" >
+			<td colspan="2" style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: 0px; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; font-weight: bold; text-align: center; ">PAGO TOTAL CON CRUCE DE APORTES</td>
+			</tr>
+			<tr height=" 37.324px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: left; ">SIMULACION A LA FECHA DE PAGO</td>
+			<td style="height:20px; width: 208.561px; background-color:#FFFFFF; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: center; "><input id="monedaInput" placeholder="Escribe número" type="text" onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;" onchange="calcule2()" name="B10" value="" size="8" style="background-color: transparent; border:0px; height: 37.324px; width: 208.561px; text-align: center; font-size: 22px; font-family:Calibri Light; color:#000000; "></td>
+			</tr>
+			<tr height=" 37.324px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: left; ">APORTES SIMULADOS A LA FECHA DE PAGO</td>
+			<td style="height:20px; width: 208.561px; background-color:#FFFFFF; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: center; "><input id="monedaInput" placeholder="Escribe número" type="text" onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;" onchange="calcule2()" name="B11" value="" size="8" style="background-color: transparent; border:0px; height: 37.324px; width: 208.561px; text-align: center; font-size: 22px; font-family:Calibri Light; color:#000000; "></td>
+			</tr>
+			<tr height=" 37.324px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: left; ">APORTES ACUMULADOS DEL ASOCIADO</td>
+			<td style="height:20px; width: 208.561px; background-color:#FFFFFF; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: center; "><input id="monedaInput" placeholder="Escribe número" type="text" onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;" onchange="calcule2()" name="B12" value="" size="8" style="background-color: transparent; border:0px; height: 37.324px; width: 208.561px; text-align: center; font-size: 22px; font-family:Calibri Light; color:#000000; "></td>
+			</tr>
+			<tr height=" 37.324px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; font-weight: bold; text-align: center; ">VALOR TOTAL A PAGAR</td>
+			<td style="height:20px; width: 208.561px; background-color:#FF0000; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Agency FB; color:#000000; font-weight: bold; text-align: center; "><input type="text" onchange="calcule2()" name="B13" value="" size="8"disabled="disabled"  style="background-color: transparent; border:0px; height: 37.324px; width: 208.561px; text-align: center; font-size: 22px; font-family:Agency FB; color:#000000; font-weight: bold; "></td>
+			</tr>
+			<tr height=" 33.325px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: 0px; border-left: 0px; font-size: 13px; font-family:Calibri; color:#000000; text-align: center; "></td>
+			<td style="height:20px; width: 208.561px; background-color:#; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: 0px; border-left: 0px; font-size: 13px; font-family:Calibri; color:#000000; text-align: center; "></td>
+			</tr>
+			<tr height=" 37.324px;" style="border:0px;" >
+			<td colspan="2" style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: 0px; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; font-weight: bold; text-align: center; ">PAGO CON CRUCE DE APORTES Y CONDONACION</td>
+			</tr>
+			<tr height=" 37.324px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: left; ">SIMULACION A LA FECHA DE PAGO</td>
+			<td style="height:20px; width: 208.561px; background-color:#FFFFFF; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: center; "><input id="monedaInput" placeholder="Escribe número" type="text" onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;" onchange="calcule2()" name="B16" value="" size="8" style="background-color: transparent; border:0px; height: 37.324px; width: 208.561px; text-align: center; font-size: 22px; font-family:Calibri Light; color:#000000; "></td>
+			</tr>
+			<tr height=" 37.324px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: left; ">APORTES SIMULADOS A LA FECHA DE PAGO</td>
+			<td style="height:20px; width: 208.561px; background-color:#FFFFFF; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: center; "><input id="monedaInput" placeholder="Escribe número" type="text" onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;" onchange="calcule2()" name="B17" value="" size="8" style="background-color: transparent; border:0px; height: 37.324px; width: 208.561px; text-align: center; font-size: 22px; font-family:Calibri Light; color:#000000; "></td>
+			</tr>
+			<tr height=" 37.324px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: left; ">INTERESES DE MORA</td>
+			<td style="height:20px; width: 208.561px; background-color:#FFFFFF; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: center; "><input id="monedaInput" placeholder="Escribe número" type="text" onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;" onchange="calcule2()" name="B18" value="" size="8" style="background-color: transparent; border:0px; height: 37.324px; width: 208.561px; text-align: center; font-size: 22px; font-family:Calibri Light; color:#000000; "></td>
+			</tr>
+			<tr height=" 37.324px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: left; ">PORCENTAJE DE CONDONACION</td>
+			<td style="height:20px; width: 208.561px; background-color:#FFFFFF; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: center; "><input id="monedaInput" placeholder="Escribe número" type="text" onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;" maxlength="2" onchange="calcule2()" name="B19" value="" size="8" style="background-color: transparent; border:0px; height: 37.324px; width: 208.561px; text-align: center; font-size: 22px; font-family:Calibri Light; color:#000000; "></td>
+			</tr>
+			<tr height=" 37.324px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: left; ">APORTES ACUMULADOS DEL ASOCIADO</td>
+			<td style="height:20px; width: 208.561px; background-color:#FFFFFF; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: center; "><input id="monedaInput" placeholder="Escribe número" type="text" onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;" onchange="calcule2()" name="B20" value="" size="8" style="background-color: transparent; border:0px; height: 37.324px; width: 208.561px; text-align: center; font-size: 22px; font-family:Calibri Light; color:#000000; "></td>
+			</tr>
+			<tr height=" 37.324px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; font-weight: bold; text-align: center; ">VALOR TOTAL A PAGAR</td>
+			<td style="height:20px; width: 208.561px; background-color:#FF0000; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Agency FB; color:#000000; font-weight: bold; text-align: center; "><input type="text" onchange="calcule2()" name="B21" value="" size="8"disabled="disabled"  style="background-color: transparent; border:0px; height: 37.324px; width: 208.561px; text-align: center; font-size: 22px; font-family:Agency FB; color:#000000; font-weight: bold; "></td>
+			</tr>
+			<tr height=" 4.99875px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#; border-top: solid 1px #000000; border-bottom: 0px; border-right: 0px; border-left: 0px; font-size: 13px; font-family:Calibri; color:#000000; text-align: left; "></td>
+			<td style="height:20px; width: 208.561px; background-color:#; border-top: solid 1px #000000; border-bottom: 0px; border-right: 0px; border-left: 0px; font-size: 3px; font-family:Calibri; color:#006666; text-align: center; "><input type="text" onchange="calcule2()" name="B22" value="" size="8"disabled="disabled"  style="background-color: transparent; border:0px; height: 4.99875px; width: 208.561px; text-align: center; font-size: 3px; font-family:Calibri; color:#006666; "></td>
+			</tr>
+			<tr height=" 30.99225px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#; border-top: 0px; border-bottom: solid 1px #000000; border-right: 0px; border-left: 0px; font-size: 13px; font-family:Calibri; color:#000000; text-align: center; "></td>
+			<td style="height:20px; width: 208.561px; background-color:#; border-top: 0px; border-bottom: solid 1px #000000; border-right: 0px; border-left: 0px; font-size: 13px; font-family:Calibri; color:#000000; text-align: center; "></td>
+			</tr>
+			<tr height=" 37.324px;" style="border:0px;" >
+			<td colspan="2" style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; font-weight: bold; text-align: center; ">ACUERDO DE PAGO</td>
+			</tr>
+			<tr height=" 37.324px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: left; ">VALOR TOTAL SIMULADO (A ULTIMO MES DE PAGO)</td>
+			<td style="type= text/css; height:20px; width: 208.561px; background-color:#FFFFFF; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: center; "><input id="formularioCantidad" placeholder="Escribe número" type="text" onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;"  onchange="calcule2()" name="B25" value="" size="8" style="background-color: transparent; border:0px; height: 37.324px; width: 208.561px; text-align: center; font-size: 22px; font-family:Calibri Light; color:#000000; "></td>
+			</tr>
+			<tr height=" 37.324px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: left; ">NUMERO DE CUOTAS PACTADAS</td>
+			<td style= "height:20px; width: 208.561px; background-color:#FFFFFF; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; text-align: center; "><input id="formularioCantidad" placeholder="Escribe número" type="text" onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;" maxlength="1" onchange="calcule2()" name="B26" value="" size="8" style="background-color: transparent; border:0px; height: 37.324px; width: 208.561px; text-align: center; font-size: 22px; font-family:Calibri Light; color:#000000; "></td>
+			</tr>
+			<tr height=" 37.324px;" style="border:0px;" >
+			<td style="height:20px; width: 631.961px; background-color:#92D050; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Calibri Light; color:#000000; font-weight: bold; text-align: center; ">VALOR TOTAL A PAGAR</td>
+			<td style="height:20px; width: 208.561px; background-color:#FF0000; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-right: solid 1px #000000; border-left: solid 1px #000000; font-size: 22px; font-family:Agency FB; color:#000000; font-weight: bold; text-align: center; "><input id="formularioCantidad" placeholder=" " type="text" onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;" onchange="calcule2()" name="B27" value="" size="8"disabled="disabled"  style="background-color: transparent; border:0px; height: 37.324px; width: 208.561px; text-align: center; font-size: 22px; font-family:Agency FB; color:#000000; font-weight: bold; "></td>
+			</tr>
+		</table>
+	</form>
+		</center>
+	</body>
+</html>
